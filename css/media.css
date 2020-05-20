@@ -1,0 +1,223 @@
+@media (min-width: 768px) and (max-width:999px) {
+
+    .container {
+        min-width: 728px;
+    }
+
+    .navigation__list-link-icon {
+        display: none;
+    }
+
+    .navigation__list-link {
+        display: block;
+    }
+
+    .navigation__logo-title {
+        font-size: 1.875rem;
+    }
+
+    .navigation__list-link {
+        font-size: 1.3125rem;
+    }
+
+    .navigation__list-link:hover {
+        cursor: pointer;
+        transition: color 0.2s linear;
+        color: rgb(0, 160, 255);
+    }
+
+    .section__title {
+        font-size: 2.25rem;
+    }
+
+    .slider__points-list {
+        width: 10%;
+    }
+
+    .slider__overlay-title {
+        font-size: 1.625rem;
+    }
+
+    .slider__overlay-description {
+        font-size: 1.25rem;
+    }
+
+    .slider__overlay-button {
+        font-size: 1.25rem;
+    }
+
+    .slider__points-button {
+        width: 1rem;
+        height: 1rem;
+    }
+
+    .news__common-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .news__block {
+        width: 50%;
+    }
+
+    .news__block::after {
+        width: 90%;
+    }
+
+    .news__title {
+        font-size: 2.25rem;
+    }
+
+    .news__descrpiption {
+        font-size: 1.125rem;
+    }
+
+    .footer__block {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1.875rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__socials {
+        width: 40%;
+    }
+
+    .footer__info-description {
+        font-size: 1.125rem;
+    }
+
+    .footer__socials-list {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .header {
+        position: relative;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .container {
+        min-width: 960px;
+    }
+
+    .navigation__list-link-icon {
+        display: none;
+    }
+
+    .navigation__list-link {
+        display: block;
+    }
+
+    .navigation__list {
+        width: 50%;
+    }
+
+    .navigation__logo-title {
+        font-size: 1.375rem;
+    }
+
+    .navigation__list-link {
+        font-size: 1rem;
+    }
+
+    .games-menu {
+        border-bottom: 0.0625rem solid #eeeeee;
+    }
+
+    .games-menu:hover {
+        border-bottom: 0.0625rem solid transparent;
+    }
+
+    .games-menu:hover .games__list {
+        display: block;
+    }
+
+    .section__title {
+        font-size: 2.25rem;
+    }
+
+    .slider {
+        margin: 0 auto;
+    }
+
+    .slider__picture-img {
+        margin: 0 auto;
+    }
+
+    .slider__overlay {
+        width: 75%;
+    }
+
+    .slider__points-list {
+        width: 10%;
+    }
+
+    .slider__overlay-title {
+        font-size: 1.625rem;
+    }
+
+    .slider__overlay-description {
+        font-size: 1.25rem;
+    }
+
+    .slider__overlay-button {
+        font-size: 1.25rem;
+    }
+
+    .slider__button {
+        display: block;
+    }
+
+    .slider__points-button {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .news__common-block {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .news__block {
+        width: 50%;
+    }
+
+    .news__block::after {
+        width: 90%;
+    }
+
+    .news__title {
+        font-size: 2.25rem;
+    }
+
+    .news__descrpiption {
+        font-size: 1.125rem;
+    }
+
+    .footer__block {
+        display: flex;
+        width: 100%;
+        margin-bottom: 1.875rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer__socials {
+        width: 30%;
+    }
+
+    .footer__info-description {
+        font-size: 1.125rem;
+    }
+
+    .footer__socials-list {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
